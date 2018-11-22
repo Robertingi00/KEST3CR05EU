@@ -65,6 +65,7 @@
 | se3/0 |              |                 |
 | se4/0 |              |                 |
 | se5/0 |              |                 |
+
 ___
 
 ### Skólavarða-Internal
@@ -159,6 +160,7 @@ ___
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
 
+
 ___
 
 ### Skólavarða-Skrifstofa
@@ -167,6 +169,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Varða-Switch
@@ -175,6 +178,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Varða-1
@@ -183,6 +187,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Varða-2
@@ -191,6 +196,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Varða-3
@@ -199,6 +205,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Hafnafjorður-Main
@@ -207,6 +214,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Hfj-1
@@ -215,6 +223,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Hfj-2
@@ -223,6 +232,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Hfj-3
@@ -231,6 +241,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Hateigsvegur-Main
@@ -239,6 +250,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Ha-1
@@ -247,6 +259,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Ha-2
@@ -255,6 +268,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 ### Ha-3
@@ -263,6 +277,7 @@ ___
 | :---- | :-------------- | ---: |
 | Ports | Switchport Mode | Vlan |
 | Ports | Switchport Mode | Vlan |
+
 ___
 
 
