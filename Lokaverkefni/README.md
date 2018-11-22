@@ -1,3 +1,4 @@
+[I'm an inline-style link](./Dagbok)
 
 ## Vlans
 
@@ -80,40 +81,188 @@ ___
 
 ### Varða-Main
 
-| Ports | Ip address   | Subnetmask      |
-| :---- | -----------: | --------------: |
-| Fa0/0 | 10.255.255.2 | 255.255.255.252 |
-| G1/0  | 88.67.33.65  | 255.255.255.252 | 
-| se2/0 |              |                 |
-| se3/0 |              |                 |
-| se4/0 |              |                 |
-| se5/0 |              |                 |
+| Ports    | Ip address   | Subnetmask      |
+| :------- | -----------: | --------------: |
+| Fa0/0    | 10.255.255.2 | 255.255.255.252 |
+| G1/0     |     N/A      |       N/A       | 
+| G1/0.600 | 10.6.0.1     | 255.255.255.0   |
+| G1/0.610 | 10.6.10.1    | 255.255.255.128 |
+| G1/0.611 | 10.6.11.1    | 255.255.255.128 |
+| G1/0.612 | 10.6.12.1    | 255.255.255.128 |
+| G1/0.613 | 10.6.13.1    | 255.255.255.128 |
+| G1/0.620 | 10.6.20.1    | 255.255.255.128 |
+| G1/0.621 | 10.6.21.1    | 255.255.255.128 |
+| G1/0.622 | 10.6.22.1    | 255.255.255.128 |
+| G1/0.623 | 10.6.23.1    | 255.255.255.128 |
+| G1/0.630 | 10.6.30.1    | 255.255.255.128 |
+| G1/0.631 | 10.6.31.1    | 255.255.255.128 |
+| G1/0.632 | 10.6.32.1    | 255.255.255.128 |
+| G1/0.633 | 10.6.33.1    | 255.255.255.128 |
+| G1/0.699 | 10.99.99.65  | 255.255.255.192 |
 
 ___
 
 ### Hafnafjordur-Edge
 
-| Ports | Ip address   | Subnetmask      |
-| :---- | -----------: | --------------: |
-| Fa0/0 | 10.255.255.0 | 255.255.255.252 |
-| Fa1/0 | 88.67.33.65  | 255.255.255.252 | 
-| se2/0 |              |                 |
-| se3/0 |              |                 |
-| se4/0 |              |                 |
-| se5/0 |              |                 |
+| Ports    | Ip address   | Subnetmask      |
+| :------- | -----------: | --------------: |
+| se0/0/0  |              |                 |
+| se0/0/1  |              |                 |
+| G0/0     |     N/A      |       N/A       |
+| G0/0.700 | 10.7.0.1     | 255.255.255.0   |
+| G0/0.710 | 10.7.10.1    | 255.255.255.128 |
+| G0/0.711 | 10.7.11.1    | 255.255.255.128 |
+| G0/0.712 | 10.7.12.1    | 255.255.255.128 |
+| G0/0.713 | 10.7.13.1    | 255.255.255.128 |
+| G0/0.720 | 10.7.20.1    | 255.255.255.128 |
+| G0/0.721 | 10.7.21.1    | 255.255.255.128 |
+| G0/0.722 | 10.7.22.1    | 255.255.255.128 |
+| G0/0.723 | 10.7.23.1    | 255.255.255.128 |
+| G0/0.730 | 10.7.30.1    | 255.255.255.128 |
+| G0/0.731 | 10.7.31.1    | 255.255.255.128 |
+| G0/0.732 | 10.7.32.1    | 255.255.255.128 |
+| G0/0.733 | 10.7.33.1    | 255.255.255.128 |
+| G0/0.799 | 10.99.99.129 | 255.255.255.192 |
 
 ___
 
 ### Háteigsvegur-Edge
 
-| Ports | Ip address   | Subnetmask      |
-| :---- | -----------: | --------------: |
-| Fa0/0 | 10.255.255.0 | 255.255.255.252 |
-| Fa1/0 | 88.67.33.65  | 255.255.255.252 | 
-| se2/0 |              |                 |
-| se3/0 |              |                 |
-| se4/0 |              |                 |
-| se5/0 |              |                 |
+| Ports    | Ip address   | Subnetmask      |
+| :------- | -----------: | --------------: |
+| se0/0/0  |              |                 |
+| se0/0/1  |              |                 |
+| G0/0     |     N/A      |       N/A       |
+| G0/0.800 | 10.8.0.1     | 255.255.255.0   |
+| G0/0.810 | 10.8.10.1    | 255.255.255.128 |
+| G0/0.811 | 10.8.11.1    | 255.255.255.128 |
+| G0/0.812 | 10.8.12.1    | 255.255.255.128 |
+| G0/0.813 | 10.8.13.1    | 255.255.255.128 |
+| G0/0.820 | 10.8.20.1    | 255.255.255.128 |
+| G0/0.821 | 10.8.21.1    | 255.255.255.128 |
+| G0/0.822 | 10.8.22.1    | 255.255.255.128 |
+| G0/0.823 | 10.8.23.1    | 255.255.255.128 |
+| G0/0.830 | 10.8.30.1    | 255.255.255.128 |
+| G0/0.831 | 10.8.31.1    | 255.255.255.128 |
+| G0/0.832 | 10.8.32.1    | 255.255.255.128 |
+| G0/0.833 | 10.8.33.1    | 255.255.255.128 |
+| G0/0.899 | 10.99.99.193 | 255.255.255.192 |
 
 ___
+
+## Switches
+
+### Skólavarða-Servers
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+
+___
+
+### Skólavarða-Skrifstofa
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Varða-Switch
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Varða-1
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Varða-2
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Varða-3
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Hafnafjorður-Main
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Hfj-1
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Hfj-2
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Hfj-3
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Hateigsvegur-Main
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Ha-1
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Ha-2
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
+### Ha-3
+
+| Ports | Switchport Mode | Vlan |
+| :---- | :-------------- | ---: |
+| Ports | Switchport Mode | Vlan |
+| Ports | Switchport Mode | Vlan |
+___
+
 
