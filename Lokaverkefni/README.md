@@ -1,4 +1,4 @@
-[I'm an inline-style link](./Dagbok)
+[Dagbók](./Dagbok)
 
 ## Vlans
 
