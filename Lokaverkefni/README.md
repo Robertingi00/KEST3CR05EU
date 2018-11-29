@@ -59,21 +59,21 @@
 
 | Ports | Ip address   | Subnetmask      |
 | :---- | -----------: | --------------: |
-| Fa0/0 | 10.255.255.1 | 255.255.255.252 |
-| Fa1/0 | 88.67.33.65  | 255.255.255.252 | 
-| se2/0 |              |                 |
-| se3/0 |              |                 |
-| se4/0 |              |                 |
-| se5/0 |              |                 |
+| Ga0/0 | 10.255.255.1 | 255.255.255.252 |
+| Ga1/0 | 88.67.33.65  | 255.255.255.252 | 
+| se2/0 | 10.255.255.9 | 255.255.255.252 |
+| se3/0 | 10.255.255.13| 255.255.255.252 |
+| se4/0 | 10.255.255.17| 255.255.255.252 |
+| se5/0 | 10.255.255.21| 255.255.255.252 |
 
-___
+
 
 ### Skólavarða-Internal
 
 | Ports     | Ip address   | Subnetmask      |
 | :-------- | -----------: | --------------: |
-| Fa0/0     | 10.255.255.1 | 255.255.255.252 |
-| Fa1/0     | 10.255.255.5 | 255.255.255.252 | 
+| Ga0/0     | 10.255.255.2 | 255.255.255.252 |
+| Ga1/0     | 10.255.255.5 | 255.255.255.252 | 
 | G2/0.150  | 10.150.0.1   | 255.255.255.240 |
 | G2/0.151  | 10.150.0.17  | 255.255.255.240 |
 | G3/0.100  | 10.1.0.1     | 255.255.255.0   |
@@ -84,7 +84,7 @@ ___
 
 | Ports    | Ip address   | Subnetmask      |
 | :------- | -----------: | --------------: |
-| Fa0/0    | 10.255.255.2 | 255.255.255.252 |
+| Fa0/0    | 10.255.255.6 | 255.255.255.252 |
 | G1/0     |     N/A      |       N/A       | 
 | G1/0.600 | 10.6.0.1     | 255.255.255.0   |
 | G1/0.610 | 10.6.10.1    | 255.255.255.128 |
@@ -107,8 +107,8 @@ ___
 
 | Ports    | Ip address   | Subnetmask      |
 | :------- | -----------: | --------------: |
-| se0/0/0  |              |                 |
-| se0/0/1  |              |                 |
+| se0/0  | 10.255.255.10| 255.255.255.252 |
+| se0/1  | 10.255.255.14| 255.255.255.252 |
 | G0/0     |     N/A      |       N/A       |
 | G0/0.700 | 10.7.0.1     | 255.255.255.0   |
 | G0/0.710 | 10.7.10.1    | 255.255.255.128 |
@@ -131,8 +131,8 @@ ___
 
 | Ports    | Ip address   | Subnetmask      |
 | :------- | -----------: | --------------: |
-| se0/0/0  |              |                 |
-| se0/0/1  |              |                 |
+| se1/0    | 10.255.255.18| 255.255.255.252 |
+| se2/0    | 10.255.255.22| 255.255.255.252 |
 | G0/0     |     N/A      |       N/A       |
 | G0/0.800 | 10.8.0.1     | 255.255.255.0   |
 | G0/0.810 | 10.8.10.1    | 255.255.255.128 |
@@ -155,10 +155,11 @@ ___
 
 ### Skólavarða-Servers
 
-| Ports | Switchport Mode | Vlan |
-| :---- | :-------------- | ---: |
-| Ports | Switchport Mode | Vlan |
-| Ports | Switchport Mode | Vlan |
+| Ports       | Switchport Mode | Vlan |
+| :---------- | :-------------- | ---: |
+| Fa0/1 - 12  | Acces           | 150  |
+| Fa0/13 - 24 | Acces           | 151  |
+| g0/1        | Trunk           | N/A  |
 
 
 ___
@@ -172,30 +173,59 @@ ___
 
 ___
 
-### Varða-Switch
+### Varða-Distribution
 
-| Ports | Switchport Mode | Vlan |
-| :---- | :-------------- | ---: |
-| Ports | Switchport Mode | Vlan |
-| Ports | Switchport Mode | Vlan |
+| Ports      | Switchport Mode | Vlan |
+| :--------- | :-------------- | ---: |
+| g0/1       | Trunk           | N/A  |
+| Fa0/1      | Trunk           | N/A  |
+| Fa0/1      | Trunk           | N/A  |
+| Fa0/3      | Trunk           | N/A  |
+
+
+
 
 ___
 
 ### Varða-1
 
-| Ports | Switchport Mode | Vlan |
-| :---- | :-------------- | ---: |
-| Ports | Switchport Mode | Vlan |
-| Ports | Switchport Mode | Vlan |
+| Ports      | Switchport Mode | Vlan |
+| :--------- | :-------------- | ---: |
+| g0/1       | Trunk           | N/A  |
+| Fa0/1      | Trunk           | N/A  |
+| Fa0/2      | Trunk           | N/A  |
 
 ___
+
+### Varða-1-S10-S11
+
+| Ports      | Switchport Mode | Vlan |
+| :--------- | :-------------- | ---: |
+| g0/1       | Trunk           | N/A  |
+| Fa0/1      | Trunk           | N/A  |
+| Fa0/2      | Trunk           | N/A  |
+
+___
+
+### Varða-1-S12-S13
+
+| Ports      | Switchport Mode | Vlan |
+| :--------- | :-------------- | ---: |
+| g0/1       | Trunk           | N/A  |
+| Fa0/1 - 12 | Acces           | 612  |
+| Fa0/2 - 24 | Acces           | 613  |
+
+___
+
 
 ### Varða-2
 
 | Ports | Switchport Mode | Vlan |
 | :---- | :-------------- | ---: |
-| Ports | Switchport Mode | Vlan |
-| Ports | Switchport Mode | Vlan |
+| g0/1  | Trunk           | N/A  |
+| Fa0/1 | Trunk           | N/A  |
+| Fa0/1 | Trunk           | N/A  |
+| Fa0/3 | Trunk           | N/A  |
 
 ___
 
@@ -203,8 +233,10 @@ ___
 
 | Ports | Switchport Mode | Vlan |
 | :---- | :-------------- | ---: |
-| Ports | Switchport Mode | Vlan |
-| Ports | Switchport Mode | Vlan |
+| g0/1  | Trunk           | N/A  |
+| Fa0/1 | Trunk           | N/A  |
+| Fa0/1 | Trunk           | N/A  |
+| Fa0/3 | Trunk           | N/A  |
 
 ___
 
