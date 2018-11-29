@@ -55,6 +55,14 @@
 
 ## Router
 
+### Internet
+
+| Ports | Ip address   | Subnetmask      |
+| :---- | -----------: | --------------: |
+| Ga0/0 | 88.67.33.66  | 255.255.255.252 | 
+| Ga1/0 | 88.67.33.1   | 255.255.255.192 | 
+
+
 ### Skólavarða-Edge
 
 | Ports | Ip address   | Subnetmask      |

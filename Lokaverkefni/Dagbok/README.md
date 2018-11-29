@@ -15,5 +15,11 @@
 - Setti réttar ip tölur á öll port.
 - Settu up vlan tenginu.
 - Vlan tenging er búinn.
-- Byrjaði á rið en það er búið að vera með stæla.
+- Byrjaði á rip en það er búið að vera með stæla.
+
+## 29/11/2018
+
+- Búinn með Rip, og onnur route.
+- Byrjaði og búinn með Dhcp fyrir allt.
+- Byrjaði á nat.
 
