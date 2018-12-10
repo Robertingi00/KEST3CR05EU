@@ -23,3 +23,14 @@
 - Byrjaði og búinn með Dhcp fyrir allt.
 - Byrjaði á nat.
 
+
+## 3/12/2018
+
+- Setti ssh
+- domain-name = tskoli.is
+- password    = tskoli
+- Kláraði patt
+- Sett port securyti á server switchinn.
+- Sett port securyti á starfsmann 100 switchinn.
+- Bjó til vefsíðu utans netins til að shjá pat virka.
+
